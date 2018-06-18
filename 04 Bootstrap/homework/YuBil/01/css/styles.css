@@ -1,4 +1,70 @@
-.main,
-.footer {
-    padding: 0;
+@font-face {
+    font-family: "Intro";
+    font-weight: bold;
+    src: url("../fonts/Intro.otf");
 }
+#menu { 
+    width: 25px;
+    height: 14px; 
+}
+#logo {
+    width: 92px;
+    height: 22px; 
+}
+#lang {
+    width: 21px;
+    height: 14px;
+}
+#mainSlogan {
+    font-family: 'Intro', Arial, sans-serif;
+    font-size: 21px;
+    letter-spacing: 2px;
+    line-height: 34.5px;
+    text-transform: uppercase;
+}
+#afterMainSlogan {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.3px;  
+    line-height: 32.5px;  
+}
+#footerSlogan {
+    font-family: 'Intro', Arial, sans-serif;
+    font-size: 21px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+/* Buttons */
+button {
+    font-family: 'Intro';
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    border: none;
+    
+    border-radius: 27px;
+    box-shadow: 0 15px 68px 0 rgba(0,0,0,0.2);
+    padding: 18px 35px;
+}
+button#main-btn { background-color: #27D481; }
+button#footer-btn { background-color: #FF634E; }
+/* END Buttons */
+/* Video styling */
+.video-wrapper { padding: 0 26px; }
+figure {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    width: 100%;
+    height: 0;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 7px;
+}
+/* END Video styling */
