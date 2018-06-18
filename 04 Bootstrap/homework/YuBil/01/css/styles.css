@@ -3,9 +3,12 @@
     font-weight: bold;
     src: url("../fonts/Intro.otf");
 }
+.container-fluid { padding: 0; }
+
 #menu { 
     width: 25px;
-    height: 14px; 
+    height: 14px;
+    margin-left: 25px; 
 }
 #logo {
     width: 92px;
@@ -14,19 +17,27 @@
 #lang {
     width: 21px;
     height: 14px;
+    margin-left: -23px;
 }
+
+.header { margin: 35px 0 75px 0 }
+
 #mainSlogan {
     font-family: 'Intro', Arial, sans-serif;
     font-size: 21px;
     letter-spacing: 2px;
     line-height: 34.5px;
     text-transform: uppercase;
+
+    margin-bottom: 26px;
 }
 #afterMainSlogan {
     font-family: Arial, sans-serif;
     font-size: 16px;
     letter-spacing: 0.3px;  
-    line-height: 32.5px;  
+    line-height: 32.5px; 
+    
+    margin-bottom: 45px;
 }
 #footerSlogan {
     font-family: 'Intro', Arial, sans-serif;
@@ -34,6 +45,15 @@
     letter-spacing: 2px;
     line-height: 35px;
     text-transform: uppercase;
+
+    margin-bottom: 50px;
+}
+.footer { 
+    background-image: url("../img/bg-green.jpg");
+    background-size: cover;
+    padding-top: 61px;
+    padding-bottom: 35px;
+    color: #fff;
 }
 /* Buttons */
 button {
@@ -46,13 +66,19 @@ button {
     
     border-radius: 27px;
     box-shadow: 0 15px 68px 0 rgba(0,0,0,0.2);
-    padding: 18px 35px;
+    padding: 15px 33px;
 }
-button#main-btn { background-color: #27D481; }
+button#main-btn { 
+    background-color: #27D481; 
+    margin-bottom: 60px;
+}
 button#footer-btn { background-color: #FF634E; }
 /* END Buttons */
 /* Video styling */
-.video-wrapper { padding: 0 26px; }
+.video-wrapper { 
+    padding: 0 42px; 
+    margin-bottom: 47px;
+}
 figure {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -68,8 +94,3 @@ iframe {
     border-radius: 7px;
 }
 /* END Video styling */
-body { 
-    background-image: url("../mobile.png");
-    background-repeat: no-repeat;
-    opacity: .3;    
-}
