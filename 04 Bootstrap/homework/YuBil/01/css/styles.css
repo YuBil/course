@@ -68,3 +68,8 @@ iframe {
     border-radius: 7px;
 }
 /* END Video styling */
+body { 
+    background-image: url("../mobile.png");
+    background-repeat: no-repeat;
+    opacity: .3;    
+}
