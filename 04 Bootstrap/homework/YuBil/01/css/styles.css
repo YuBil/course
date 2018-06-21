@@ -3,6 +3,29 @@
     font-weight: bold;
     src: url("../fonts/Intro.otf");
 }
+
+@font-face {
+    font-family: "MyriadProCondRegular";
+    font-weight: bold;
+    src: url("../fonts/MyriadProCondRegular/MyriadProCondRegular.woff") format("woff"),
+    url("../fonts/MyriadProCondRegular/MyriadProCondRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MyriadPro-BoldCond";
+    src: url("../fonts/MyriadPro-BoldCond.otf");
+}
+
+.dropdown-item {
+    font-family: 'MyriadProCondRegular', Arial, sans-serif;
+    font-size: 16px;
+    color: #0f5ee0;    
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.dropdown-item:hover { color: #ff7200; }
+
 .container-fluid { padding: 0; }
 
 div a { display: block; }
@@ -18,7 +41,7 @@ div a { display: block; }
     background: transparent;
 }
 
-.dropdown-item { padding-left: 15px; }
+.dropdown-item { padding: 0 0 10px 15px; }
 
 #menu { 
     width: 25px;
@@ -87,11 +110,34 @@ button {
     box-shadow: 0 15px 68px 0 rgba(0,0,0,0.2);
     padding: 15px 33px;
 }
-button#main-btn { 
+
+#log-in-btn,
+#order-btn {
+    font-family: 'MyriadPro-BoldCond', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: none;
+    letter-spacing: 3.7px;
+    padding: 5px 15px;
+}
+
+#log-in-btn { 
+    background: #ff7200;
+    /* padding: 7px 29px;
+    margin-left: 2px; */
+}
+
+#order-btn {
+    background: #27d481;
+    /* padding: 7px 16px;
+    margin-left: -15px; */
+}
+
+#main-btn { 
     background-color: #27D481; 
     margin-bottom: 60px;
 }
-button#footer-btn { background-color: #FF634E; }
+#footer-btn { background-color: #FF634E; }
 /* END Buttons */
 /* Video styling */
 .video-wrapper { 
