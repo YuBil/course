@@ -5,6 +5,21 @@
 }
 .container-fluid { padding: 0; }
 
+div a { display: block; }
+
+/* Dropdown remove default stylization */
+
+#dropdownMenuButton,
+.dropdown    {
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.dropdown-item { padding-left: 15px; }
+
 #menu { 
     width: 25px;
     height: 14px;
@@ -21,7 +36,11 @@
 }
 
 .header { margin: 35px 0 75px 0 }
-
+/* body { 
+    background-image: url("../mobile.png");
+    background-repeat: no-repeat;
+    opacity: .3;    
+} */
 #mainSlogan {
     font-family: 'Intro', Arial, sans-serif;
     font-size: 21px;
