@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 html,
-body {
-    font-family: 'PT Sans', sans-serif;
+body { font-family: 'PT Sans', sans-serif; }
+
+.container-fluid { 
+    padding: 10px 30px; 
 }
 
+h2 { padding: 0; }
 p {
     text-transform: capitalize;
+    width: 100%;
 }
+
+.like-table {
+    display: table;
+    border-collapse: collapse;
+}
+.like-table > div { display: table-row; }
 
 .left-str,
 .right-str { 
