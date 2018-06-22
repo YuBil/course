@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+html,
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    text-transform: capitalize;
+}
+
+.left-str,
+.right-str { 
+    width: 50%;
+    float: left;
+}
+
+.left-str {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+
+    /* hide long text with "..." */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.right-str {
+    font-size: 13px;
+    font-weight: normal;
+    text-align: right;
+    color: green;
+}
