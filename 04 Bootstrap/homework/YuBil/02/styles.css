@@ -6,11 +6,15 @@ body { font-family: 'PT Sans', sans-serif; }
 .container-fluid { 
     padding: 10px 30px; 
 }
+.row { margin: 0; }
+
+div[class*="col-md-"] { padding: 0; }
+
 
 h2 { padding: 0; }
 p {
     text-transform: capitalize;
-    width: 100%;
+    margin-bottom: 0;
 }
 
 .like-table {
