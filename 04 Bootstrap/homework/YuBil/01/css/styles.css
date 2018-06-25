@@ -46,7 +46,7 @@ div a { display: block; }
 #menuImg { 
     width: 25px;
     height: 14px;
-    margin-left: 25px; 
+    margin-left: 18px; 
 }
 #logoImg {
     width: 92px;
@@ -58,7 +58,7 @@ div a { display: block; }
     margin-left: -23px;
 }
 
-.header { margin: 35px 0 75px 0 }
+.header { margin: 30px 0 68px 0 }
 
 .mainSlogan {
     font-family: 'Intro', Arial, sans-serif;
@@ -262,9 +262,9 @@ iframe {
 
     figure { z-index: 3; }
 
-    body { 
-        background-image: url("../atablet.png");
-        background-repeat: no-repeat;
-        opacity: .3;    
-    }
+}
+body { 
+    background-image: url("../mobile.png");
+    background-repeat: no-repeat;
+    opacity: .3;    
 }
