@@ -43,16 +43,16 @@ div a { display: block; }
 
 .dropdown-item { padding: 0 0 10px 15px; }
 
-#menu { 
+#menuImg { 
     width: 25px;
     height: 14px;
     margin-left: 25px; 
 }
-#logo {
+#logoImg {
     width: 92px;
     height: 22px; 
 }
-#lang {
+#langImg {
     width: 21px;
     height: 14px;
     margin-left: -23px;
@@ -64,7 +64,8 @@ div a { display: block; }
     background-repeat: no-repeat;
     opacity: .3;    
 } */
-#mainSlogan {
+
+.mainSlogan {
     font-family: 'Intro', Arial, sans-serif;
     font-size: 21px;
     letter-spacing: 2px;
@@ -73,7 +74,8 @@ div a { display: block; }
 
     margin-bottom: 26px;
 }
-#afterMainSlogan {
+
+.afterMainSlogan {
     font-family: Arial, sans-serif;
     font-size: 16px;
     letter-spacing: 0.3px;  
@@ -81,7 +83,8 @@ div a { display: block; }
     
     margin-bottom: 45px;
 }
-#footerSlogan {
+
+.footerSlogan {
     font-family: 'Intro', Arial, sans-serif;
     font-size: 21px;
     letter-spacing: 2px;
@@ -111,7 +114,7 @@ button {
     padding: 15px 33px;
 }
 
-#log-in-btn,
+#login-btn,
 #order-btn {
     font-family: 'MyriadPro-BoldCond', Arial, sans-serif;
     font-size: 16px;
@@ -121,7 +124,7 @@ button {
     padding: 5px 15px;
 }
 
-#log-in-btn { 
+#login-btn { 
     background: #ff7200;
     /* padding: 7px 29px;
     margin-left: 2px; */
@@ -137,8 +140,10 @@ button {
     background-color: #27D481; 
     margin-bottom: 60px;
 }
+
 #footer-btn { background-color: #FF634E; }
 /* END Buttons */
+
 /* Video styling */
 .video-wrapper { 
     padding: 0 42px; 
