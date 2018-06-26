@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="header">
+        <div class="header mb-sm-0">
             <div class="row justify-content-center align-items-center">
 
                 <div class="d-none d-lg-block" id="share-btn"></div>
@@ -48,7 +48,7 @@
             </div>
         </div><!-- end header -->
             
-        <div class="main pt-sm-1">
+        <div class="main">
             <div class="row text-center">
                 <div class="col-12">
                     <h2 class="mainSlogan mb-sm-5">
@@ -72,28 +72,29 @@
                 </div>
             </div>
 
-            <div class="d-none d-lg-block" id="price">
+            <div class="d-none d-xl-block" id="price">
                 <p>
                     120<span id="currency">₽</span>
                 </p>
             </div>
             
-            <div class="d-none d-lg-block" id="smile1">
+            <div class="d-none d-xl-block" id="smile1">
                 <img src="img/index-head-smile1.jpg" class="rounded-circle" alt="smile1">
             </div>
             
-            <div class="d-none d-md-block" id="smile2">
-                <img src="img/index-head-smile2.jpg" class="rounded-circle" alt="smile2">
-            </div>
             
-            <div class="row text-center">
+            <div class="row text-center position-relative">
                 <div class="col-12">
                     <button id="main-btn">разместить сайт</button>
+                </div>
+                
+                <div class="d-none d-md-block" id="smile2">
+                    <img src="img/index-head-smile2.jpg" class="rounded-circle" alt="smile2">
                 </div>
             </div>
         </div><!-- end main -->
         
-        <div class="footer">
+        <div class="footer mt-sm-1">
             <div class="row text-center">
                 <div class="col-12">
                     <h2 class="footerSlogan">
@@ -106,26 +107,26 @@
                 </div>
             </div> <!-- end Footer slogan-->
 
-            <div class="row text-center">
+            <div class="row justify-content-center position-relative">
+                <div class="d-none d-md-block" id="cup">
+                    <img src="img/video-cup.png" class="img-fluid" alt="video cup">
+                </div>
+                
                 <div class="col-12 video-wrapper">
                     <figure>
                         <iframe src="https://www.youtube.com/embed/1JHvRJ5tSLg" 
                         frameborder="0" allowfullscreen></iframe>
                     </figure>
                 </div>
+
+                <div class="d-none d-md-block" id="popcorn">
+                    <img src="img/video-popcorn.png" class="img-fluid" alt="popcorn">
+                </div>
             </div> <!-- end player -->
 
-            <div class="d-none d-md-block" id="cup">
-                <img src="img/video-cup.png" alt="video cup">
-            </div>
-    
-            <div class="d-none d-md-block" id="popcorn">
-                <img src="img/video-popcorn.png" alt="popcorn">
-            </div>
-        
             <div class="row text-center">
                 <div class="col-12">
-                    <button id="footer-btn">разместить сайт</button>
+                    <button id="footer-btn" class="mt-sm-1">разместить сайт</button>
                 </div>
             </div>
         </div><!-- end footer-->
