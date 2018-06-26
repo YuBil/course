@@ -24,6 +24,12 @@
     letter-spacing: 4px;
 }
 
+body { 
+    background-image: url("../mobile.png");
+    background-repeat: no-repeat;
+    opacity: .3;    
+}
+
 .dropdown-item:hover { color: #ff7200; }
 
 .container-fluid { padding: 0; }
@@ -164,8 +170,6 @@ iframe {
 
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
 
-    header { margin: 53px 0 20px 0; }
-
     #menuImg {
         width: 27px;
         height: 17px;
@@ -174,8 +178,6 @@ iframe {
     #logoImg {
         width: 100px;
         height: 24px;
-        /* margin-left: 240px;
-        margin-right: 250px;  */
     }
     
     #langImg {
@@ -192,11 +194,11 @@ iframe {
     .mainSlogan { 
         font-size: 24px;
         letter-spacing: 1.3px;
-        
-        margin-bottom: 54px; 
     }
 
-    .afterMainSloganInfo { margin-bottom: 60px; }
+    .afterMainSlogan { 
+        letter-spacing: 0.4px;
+    }
 
     #smile2 {
         position: absolute;
@@ -205,12 +207,6 @@ iframe {
         height: 110px;
         right: 58px;
         bottom: -145px;
-    }
-    
-    #smile2 img { 
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
-        border-radius: 50px;
     }
 
     footer { 
@@ -248,23 +244,21 @@ iframe {
         margin: 20px auto;
     }
 
-    #main-btn { 
-
-        margin-bottom: 100px;
+    #main-btn {
+        margin: 15px 0 95px 0;
     }
 
     /* Video styling */
     .video-wrapper {
-        margin-top: 47px;
-        margin-bottom: 62px;
-        padding: 12px 120px;
+        padding: 8px 135px;
     }
 
     figure { z-index: 3; }
 
-}
-body { 
-    background-image: url("../mobile.png");
-    background-repeat: no-repeat;
-    opacity: .3;    
+    body { 
+        background-image: url("../tablet.png");
+        background-repeat: no-repeat;
+        opacity: .3;    
+    }
+
 }
