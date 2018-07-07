@@ -24,11 +24,11 @@
     letter-spacing: 4px;
 }
 
-body { 
+/* body { 
     background-image: url("../mobile.png");
     background-repeat: no-repeat;
     opacity: .3;    
-}
+} */
 
 .nav-link:hover { color: #ff7200; }
 
@@ -37,8 +37,7 @@ body {
 div a { display: block; }
 
 /* Dropdown remove default stylization */
-
-#dropdownMenuButton,
+.btn-dropdownMenu,
 .dropdown    {
     border: none;
     border-radius: 0;
@@ -49,24 +48,25 @@ div a { display: block; }
 
 .dropdown-item { padding: 0 0 10px 15px; }
 
-#menuImg { 
+.img-menu { 
     width: 25px;
     height: 14px;
     margin-left: 18px; 
 }
-#logoImg {
+
+.img-logo {
     width: 92px;
     height: 22px; 
 }
-#langImg {
+.img-lang {
     width: 21px;
     height: 14px;
     margin-left: -23px;
 }
 
-.header { margin: 25px 0 65px 0; }
+header { margin: 25px 0 65px 0; }
 
-.mainSlogan {
+main .text-slogan {
     font-family: 'Intro', Arial, sans-serif;
     font-size: 21px;
     letter-spacing: 2px;
@@ -76,7 +76,7 @@ div a { display: block; }
     margin-bottom: 26px;
 }
 
-.afterMainSlogan {
+main .text-slogan-secondary {
     font-family: Arial, sans-serif;
     font-size: 16px;
     letter-spacing: 0.3px;  
@@ -85,7 +85,7 @@ div a { display: block; }
     margin-bottom: 45px;
 }
 
-.footerSlogan {
+footer .text-slogan {
     font-family: 'Intro', Arial, sans-serif;
     font-size: 21px;
     letter-spacing: 2px;
@@ -94,13 +94,15 @@ div a { display: block; }
 
     margin-bottom: 50px;
 }
-.footer { 
+
+footer { 
     background-image: url("../img/bg-green.jpg");
     background-size: cover;
     padding-top: 61px;
     padding-bottom: 35px;
     color: #fff;
 }
+
 /* Buttons */
 button {
     font-family: 'Intro';
@@ -115,8 +117,8 @@ button {
     padding: 15px 33px;
 }
 
-#login-btn,
-#order-btn {
+.btn-login,
+.btn-order {
     font-family: 'MyriadPro-BoldCond', Arial, sans-serif;
     font-size: 16px;
     border-radius: 8px;
@@ -125,24 +127,24 @@ button {
     padding: 5px 15px;
 }
 
-#login-btn { 
+.btn-login { 
     background: #ff7200;
     /* padding: 7px 29px;
     margin-left: 2px; */
 }
 
-#order-btn {
+.btn-order {
     background: #27d481;
     /* padding: 7px 16px;
     margin-left: -15px; */
 }
 
-#main-btn { 
+.btn-main { 
     background-color: #27D481; 
     margin-bottom: 60px;
 }
 
-#footer-btn { background-color: #FF634E; }
+.btn-footer { background-color: #FF634E; }
 /* END Buttons */
 
 /* Video styling */
@@ -150,6 +152,7 @@ button {
     padding: 0 42px; 
     margin-bottom: 47px;
 }
+
 figure {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -170,36 +173,36 @@ iframe {
 
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
 
-    #menuImg {
+    .img-menu {
         width: 27px;
         height: 17px;
     }
     
-    #logoImg {
+    .img-logo {
         width: 100px;
         height: 24px;
     }
     
-    #langImg {
+    .img-lang {
         width: 21px;
         height: 15px;
     }
 
-    .main { 
+    main { 
         background: url("../img/bg-white.jpg") -485px -1057px;
         padding-top: 71px;
     }
     
-    .mainSlogan { 
+    main .text-slogan { 
         font-size: 24px;
         letter-spacing: 1.3px;
     }
 
-    .afterMainSlogan { 
+    main .text-slogan-secondary { 
         letter-spacing: 0.4px;
     }
 
-    #smile2 {
+    .img-smile2 {
         position: absolute;
         z-index: 2;
         width: 110px;
@@ -212,13 +215,13 @@ iframe {
         z-index: 1;
     }
 
-    .footerSlogan {
+    footer .text-slogan {
         font-size: 24px;
         letter-spacing: 1.3px;
         line-height: 38.5px;
     }
 
-    #cup {
+    .img-cup {
         position: absolute;
         width: 250px;
         height: 310px;
@@ -227,7 +230,7 @@ iframe {
         z-index: 2;
     }
     
-    #popcorn {
+    .img-popcorn {
         position: absolute;
         width: 310px;
         height: 310px;
@@ -242,7 +245,7 @@ iframe {
         margin: 20px auto;
     }
 
-    #main-btn {
+    .btn-main {
         margin: 15px 0 95px 0;
     }
 

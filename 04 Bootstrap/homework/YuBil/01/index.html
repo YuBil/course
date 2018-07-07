@@ -15,17 +15,17 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="header mb-sm-0">
+        <header class="mb-sm-0">
             <div class="row justify-content-center align-items-top">
 
-                <div class="d-none d-lg-block" id="share-btn"></div>
+                <div class="d-none d-lg-block btn-share"></div>
 
                 <!-- MENU START -->
 
                 <nav class="navbar navbar-expand-lg col-3">
-                    <button id="dropdownMenuButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="btn-dropdownMenu navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <!-- <span class="navbar-toggler-icon"></span> -->
-                      <img id="menuImg" class="align-middle mt-1 mt-sm-0 mr-sm-5" src="img/menu.png" alt="menu">
+                      <img class="img-menu align-middle mt-1 mt-sm-0 mr-sm-5" src="img/menu.png" alt="menu">
                     </button>
                   
                     <div class="collapse navbar-collapse ml-3" id="navbarSupportedContent">
@@ -43,10 +43,10 @@
                                 <a class="nav-link" href="#">поддержка</a>
                             </li>
                             <li class="nav-item mb-2">
-                                <button id="login-btn" clas="mt-sm-0 mb-sm-0">войти</button>
+                                <button class="btn-login mt-sm-0 mb-sm-0">войти</button>
                             </li>
                             <li class="nav-item">
-                                <button id="order-btn" class="mt-sm-0 mb-sm-0">заказать</button>
+                                <button class="btn-order mt-sm-0 mb-sm-0">заказать</button>
                             </li>
                         </ul>
                     </div>
@@ -55,18 +55,18 @@
                 <!-- MENU END-->
 
                 <div class="col-6 text-center">
-                    <img id="logoImg" class="mt-3 mt-sm-4" src="img/logo.png" alt="logo">
+                    <img class="img-logo mt-3 mt-sm-4" src="img/logo.png" alt="logo">
                 </div>
                 <div class="col-3 text-center mt-sm-3">
-                    <img id="langImg" class="mt-3 ml-sm-4" src="img/flag-ru.png" alt="ru">            
+                    <img class="img-lang mt-3 ml-sm-4" src="img/flag-ru.png" alt="ru">            
                 </div>
             </div>
-        </div><!-- end header -->
+        </header><!-- end header -->
             
-        <div class="main">
+        <main>
             <div class="row text-center">
                 <div class="col-12">
-                    <h2 class="mainSlogan mb-sm-5">
+                    <h2 class="text-slogan mb-sm-5">
                         разместить сайт<br class="d-block d-sm-none" />
                         в интернете<br class="d-block d-sm-none"/>
                         просто,<br />
@@ -77,7 +77,7 @@
             
             <div class="row text-center">
                 <div class="col-12">    
-                    <p class="afterMainSlogan pt-sm-1">
+                    <p class="text-slogan-secondary pt-sm-1">
                         Вам больше не нужно<br class="d-block d-sm-none" />
                         разбираться в видах хостинга<br class="d-block d-sm-none" />
                         и технических терминах.<br />
@@ -89,30 +89,30 @@
 
             <div class="d-none d-xl-block" id="price">
                 <p>
-                    120<span id="currency">₽</span>
+                    120<span class="currency">₽</span>
                 </p>
             </div>
             
-            <div class="d-none d-xl-block" id="smile1">
+            <div class="img-smile1 d-none d-xl-block">
                 <img src="img/index-head-smile1.jpg" class="rounded-circle" alt="smile1">
             </div>
             
             
             <div class="row text-center position-relative">
                 <div class="col-12">
-                    <button id="main-btn">разместить сайт</button>
+                    <button class="btn-main">разместить сайт</button>
                 </div>
                 
-                <div class="d-none d-md-block" id="smile2">
+                <div class="img-smile2 d-none d-md-block">
                     <img src="img/index-head-smile2.jpg" class="rounded-circle" alt="smile2">
                 </div>
             </div>
-        </div><!-- end main -->
+        </main><!-- end main -->
         
-        <div class="footer mt-sm-1">
+        <footer class="mt-sm-1">
             <div class="row text-center">
                 <div class="col-12">
-                    <h2 class="footerSlogan">
+                    <h2 class="text-slogan">
                         почему fozzy?<br />
                         потому что мы<br class="d-block d-sm-none" />
                         быстрее быстрого<br />
@@ -123,7 +123,7 @@
             </div> <!-- end Footer slogan-->
 
             <div class="row justify-content-center position-relative">
-                <div class="d-none d-md-block" id="cup">
+                <div class="img-cup d-none d-md-block">
                     <img src="img/video-cup.png" class="img-fluid" alt="video cup">
                 </div>
                 
@@ -134,17 +134,17 @@
                     </figure>
                 </div>
 
-                <div class="d-none d-md-block" id="popcorn">
+                <div class="img-popcorn d-none d-md-block">
                     <img src="img/video-popcorn.png" class="img-fluid" alt="popcorn">
                 </div>
             </div> <!-- end player -->
 
             <div class="row text-center">
                 <div class="col-12">
-                    <button id="footer-btn" class="mt-sm-1">разместить сайт</button>
+                    <button class="btn-footer mt-sm-1">разместить сайт</button>
                 </div>
             </div>
-        </div><!-- end footer-->
+        </footer><!-- end footer-->
     </div><!-- end container-fluid -->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
