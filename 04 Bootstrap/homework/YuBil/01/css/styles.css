@@ -255,21 +255,38 @@ iframe {
     }
 
     figure { z-index: 3; }
-
+/* 
     body { 
         background-image: url("../tablet.png");
         background-repeat: no-repeat;
         opacity: .3;    
-    }
+    } */
 
 }
 
 @media only screen and (min-width: 1200px) {
 
-    body { 
+    /* body { 
         background-image: url("../desktop.png");
         background-repeat: no-repeat;
         opacity: .3;    
+    } */
+
+    .img-share  { 
+        background-image: url("../img/icon-share.png");
+        background-size: cover;
+        width: 20px;
+        height: 20px;
+        background-position: 0 -40px;
+        content: "";
+    
+        /* margin-left: -26px; */
+        margin-right: 45px;
+    }
+    
+    .img-share:hover { 
+        background-position: 0 -80px;
     }
 
 }
+
